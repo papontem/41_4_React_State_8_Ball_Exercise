@@ -1,38 +1,58 @@
+html {
+	background-color: black;
+}
+body {
+	background: radial-gradient(
+		circle at 50% 25%,
+		
+		#eee,
+		black,
+
+		black 
+	);
+}
 .App {
+	font-size: calc((2.5vh + 2.5vw) / 2);
+	color: rgb(0, 0, 0);
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .EightBall {
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	padding: auto;
 	margin: auto;
-	width: 200px;
-	height: 200px;
-	border: solid 1px black;
-  border-radius: 100%;
-
+	width: clamp(10px, 150px, 500px);
+	height: clamp(10px, 150px, 500px);
+	border: solid 1px white;
+	border-radius: 100%;
 }
 
-.black{
-  background-color: black;
-  color: white;
-
+.black {
+	background-color: black;
+	color: white;
 }
-.green{
-  background-color: green;
-  color: white;
+.green {
+	background-color: green;
+	color: white;
 }
-.red{
-  background-color: red;
-  color: white;
+.red {
+	background-color: red;
+	color: white;
 }
-.goldenrod{
-  background-color: goldenrod;
-  color: white;
+.goldenrod {
+	background-color: goldenrod;
+	color: white;
+}
+footer {
+	color: white;
 }
 /* .App-logo {
   height: 40vmin;

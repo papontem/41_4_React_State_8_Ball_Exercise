@@ -1,4 +1,5 @@
 const answers = [
+	// Approving answers (green)
 	{ msg: "It is certain.", color: "green" },
 	{ msg: "It is decidedly so.", color: "green" },
 	{ msg: "Without a doubt.", color: "green" },
@@ -7,13 +8,22 @@ const answers = [
 	{ msg: "As I see it, yes.", color: "green" },
 	{ msg: "Most likely.", color: "green" },
 	{ msg: "Outlook good.", color: "green" },
+	{ msg: "Ask a friend.", color: "green" },
+	{ msg: "The stars say yes.", color: "green" },
 	{ msg: "Yes.", color: "green" },
+
+	// Answers in between (goldenrod)
 	{ msg: "Signs point to yes.", color: "goldenrod" },
 	{ msg: "Reply hazy, try again.", color: "goldenrod" },
 	{ msg: "Ask again later.", color: "goldenrod" },
 	{ msg: "Better not tell you now.", color: "goldenrod" },
 	{ msg: "Cannot predict now.", color: "goldenrod" },
 	{ msg: "Concentrate and ask again.", color: "goldenrod" },
+	{ msg: "Follow your instincts.", color: "goldenrod" },
+	{ msg: "The answer is unclear.", color: "goldenrod" },
+	{ msg: "Explore new possibilities.", color: "goldenrod" },
+
+	// Disapproving answers (red)
 	{ msg: "Don't count on it.", color: "red" },
 	{ msg: "My reply is no.", color: "red" },
 	{ msg: "My sources say no.", color: "red" },
